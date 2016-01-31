@@ -110,7 +110,7 @@ todo_include_todos = False
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if on_rtd:
-    html_theme = 'sphinx_rtd_theme'
+    html_theme = 'core'
 else:
     html_theme = 'nature'
 
